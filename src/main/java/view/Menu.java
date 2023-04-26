@@ -19,14 +19,16 @@ public class Menu {
      */
     public int mainMenu() {
 
-        System.out.println("			           Menú			             ");
-        System.out.println("*************************************************");
-        System.out.println(" 	1.  Mostrar todos los campeones	             ");
-        System.out.println("	4.  Mostrar campeón por ID                   ");
-        System.out.println("	7.  Modificar el nombre de un campeón        ");
-        System.out.println("	10. Borrar un campeón por nombre             ");
-        System.out.println("	0.  Salir                         	         ");
-        System.out.println("*************************************************");
+        System.out.println("			          Menú  		            ");
+        System.out.println("************************************************");
+        System.out.println(" 	1. Mostrar todos los campeones	            ");
+        System.out.println("	2. Mostrar campeón por ID                   ");
+        System.out.println("	3. Modificar campeón                        ");
+        System.out.println("	4. Modificar el nombre de un campeón        ");
+        System.out.println("	5. Borrar campeones por ID de objeto        ");
+        System.out.println("	6. Borrar un campeón por nombre             ");
+        System.out.println("	0. Salir                         	        ");
+        System.out.println("************************************************");
 
         System.out.println("Escoje una opción: ");
         try{
