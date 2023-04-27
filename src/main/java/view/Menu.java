@@ -5,20 +5,23 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Scanner;
 
+/**
+ * Esta clase es la que creara nuestro menu y indicara que menu hay que teclear por pantalla
+ */
 public class Menu {
     private int option;
     Scanner sc = new Scanner(System.in);
 
     /**
-     * constructor
+     * Este constructor nos permite llamar al menu desde el main
      */
     public Menu() {
         super();
     }
 
     /**
-     * Menu que contiene los opciones que controla los submenus
-     * @return retorna las opciones
+     * Este metodo basicamente crea las opciones y permite que el usuario solo escoja del 1 al 6, siendo 0 el exit del menu
+     * @return option devuelve la opcion del usuario, indicandole que metodo debera ejecutar
      */
     public int mainMenu() {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
